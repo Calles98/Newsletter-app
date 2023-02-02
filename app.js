@@ -66,7 +66,7 @@ app.post("/failure", (req,res)=>{
 
 
 // LISTEN
-app.listen(port, ()=>{
+app.listen(port || 3000, ()=>{
     console.log("Server is running in port " + port);
 });
 
